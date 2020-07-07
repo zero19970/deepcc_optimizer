@@ -1,0 +1,22 @@
+Package: DeepCCv2
+Type: Package
+Title: DeepCCv2: a deep learning-based framework for cancer classification, version 2
+Version: 0.2.0
+Author: Feng Gao, Chenghang Li, Xin Wang
+Maintainer: Chenghang Li <leecx1997@163.com>
+Description: DeepCCv2 is versatile and robust cancer subtyping framework, based on
+    deep learning and incorporate functional gene sets as prior knowledge. This version is 
+    developing for faster calculating, supporting for single sample and micro RNA seq.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.2)
+RoxygenNote: 7.1.1
+URL: http://github.com/zero19970/DeepCCv2
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp, keras, doParallel, foreach, ggplot2, cowplot
+Suggest:
+    msigdbr
